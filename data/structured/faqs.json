@@ -1,0 +1,50 @@
+[
+  {
+    "id": "faq-001",
+    "category": "Certification",
+    "question": "What is the difference between voluntary and compulsory BIS certification?",
+    "answer": "BIS certification is voluntary in nature under Section 13 of the BIS Act, 2016. However, under Section 16 of the BIS Act, the Central Government, through Line Ministries (such as DPIIT, Ministry of Steel, MoRTH, MoHFW), issues Quality Control Orders (QCOs) in public interest, human/animal/plant health, safety, and environmental protection. For products notified under a QCO, manufacturing, storing, importing, or selling without an active BIS Standard Mark (ISI mark) is strictly prohibited and punishable under law.",
+    "source": "BIS Product Certification FAQs (Section 2.1)",
+    "source_url": "https://www.bis.gov.in/product-certification/faqs/"
+  },
+  {
+    "id": "faq-002",
+    "category": "Certification Process",
+    "question": "How can a manufacturer apply for a BIS Licence (ISI Mark)?",
+    "answer": "A manufacturer must apply online through the 'Manakonline' portal (www.manakonline.in). The process requires: 1. Confirming compliance with the applicable Indian Standard; 2. Establishing required in-house test facilities per the Scheme of Inspection and Testing (SIT); 3. Submitting the online application along with plant layout, machinery list, and application fee of ₹1,000; 4. Preliminary factory visit by BIS officers to verify testing capability and draw samples; 5. Passing independent sample testing in a BIS recognized lab; 6. Grant of Certification Marks Licence (CM/L).",
+    "source": "Manakonline Standard Operating Procedure (SOP-01)",
+    "source_url": "https://www.manakonline.in"
+  },
+  {
+    "id": "faq-003",
+    "category": "Foreign Manufacturers",
+    "question": "How can an overseas manufacturer obtain BIS certification under FMCS?",
+    "answer": "Foreign manufacturers are certified under the Foreign Manufacturers Certification Scheme (FMCS) governed by Scheme I. The overseas factory must establish complete in-house testing equipment, appoint an Authorized Indian Representative (AIR) based in India to take legal responsibility, pay inspection charges and air travel expenses for BIS auditors, and provide a Performance Bank Guarantee (PBG) of USD 10,000 upon grant of licence.",
+    "source": "BIS FMCS Guidelines (2025 Edition)",
+    "source_url": "https://www.bis.gov.in/product-certification/foreign-manufacturers-certification-scheme/"
+  },
+  {
+    "id": "faq-004",
+    "category": "Testing & Laboratories",
+    "question": "What is BIS LIMS and how does it assign test samples?",
+    "answer": "BIS LIMS (Laboratory Information Management System, lims.bis.gov.in) is the automated digital portal that monitors and coordinates all testing activities across 10 BIS-owned laboratories, 420+ BIS recognized laboratories, and 140+ empanelled laboratories. Sample assignment is automated to maintain neutrality and prevent conflicts of interest.",
+    "source": "BIS LIMS Portal User Guide",
+    "source_url": "https://lims.bis.gov.in"
+  },
+  {
+    "id": "faq-005",
+    "category": "Consumer Protection",
+    "question": "How can a consumer check if an ISI mark on a product is genuine?",
+    "answer": "Every genuine ISI mark must display: 1. The IS number above the mark (e.g., IS 302-2-15); 2. The ISI monogram; 3. The 7 or 8 digit CM/L (Certification Marks Licence) number at the bottom (e.g., CM/L-XXXXXXX). Consumers can verify the licence status, manufacturer address, and validity in the BIS CARE mobile app under the 'Verify Licence Details' tab or through the BIS website.",
+    "source": "BIS Consumer Guide & BIS CARE App Manual",
+    "source_url": "https://www.bis.gov.in/consumer-affairs/"
+  },
+  {
+    "id": "faq-006",
+    "category": "Hallmarking",
+    "question": "What is HUID and why is it mandatory for gold jewellery?",
+    "answer": "HUID (Hallmark Unique Identification) is a 6-digit alphanumeric code laser-engraved onto every piece of gold jewellery at a recognized Assaying and Hallmarking Centre (A&HC). HUID provides unique traceability of the jewellery piece back to the registered jeweller, the assaying centre, date of hallmarking, and exact purity. It ensures non-repudiation and prevents hallmarking fraud or spurious dilution of purity.",
+    "source": "Department of Consumer Affairs & BIS Hallmarking FAQ (2026)",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/faqs/"
+  }
+]

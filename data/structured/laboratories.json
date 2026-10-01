@@ -1,0 +1,330 @@
+[
+  {
+    "id": "lab-001",
+    "lab_code": "BIS-CL-01",
+    "name": "Bureau of Indian Standards Central Laboratory (CL)",
+    "lab_type": "BIS Own Central Laboratory",
+    "address": "Plot No. 20/9, Site IV, Sahibabad Industrial Area",
+    "district": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "pincode": "201010",
+    "contact_person": "Head (CL) / Scientist F",
+    "phone": "+91-120-4177100",
+    "email": "cl@bis.gov.in",
+    "validity_date": "2030-12-31",
+    "accreditation_status": "NABL Accredited & BIS Apex Laboratory",
+    "supported_standards": [
+      {
+        "is_number": "IS 302 (Part 2/Sec 15) : 2009",
+        "standard_code": "IS 302-2-15",
+        "product": "Electric Kettles & Liquid Heating Appliances",
+        "tests_supported": [
+          "Complete Safety Conformity Evaluation",
+          "Leakage Current & Electric Strength",
+          "Abnormal Operation & Boil-Dry Test",
+          "Fire Hazard & Glow-Wire Test at 850°C"
+        ],
+        "testing_charge_inr": 18500,
+        "sample_turnaround_days": 14
+      },
+      {
+        "is_number": "IS 14543 : 2024",
+        "standard_code": "IS 14543",
+        "product": "Packaged Drinking Water",
+        "tests_supported": [
+          "Physical & Chemical Complete Profile",
+          "Toxic Heavy Metals (Lead, Arsenic, Cadmium, Mercury)",
+          "Pesticide Residue Screen (GC-MS/MS & LC-MS/MS)",
+          "Microbiological Pathogen Culture"
+        ],
+        "testing_charge_inr": 24000,
+        "sample_turnaround_days": 10
+      },
+      {
+        "is_number": "IS 9873 (Part 1) : 2019",
+        "standard_code": "IS 9873-1",
+        "product": "Children Toys",
+        "tests_supported": [
+          "Mechanical & Physical Small Parts",
+          "Sharp Edges and Points",
+          "Drop & Impact Dynamics",
+          "Heavy Metals Migration per Part 3"
+        ],
+        "testing_charge_inr": 16000,
+        "sample_turnaround_days": 12
+      },
+      {
+        "is_number": "IS 2347 : 2017",
+        "standard_code": "IS 2347",
+        "product": "Domestic Pressure Cookers",
+        "tests_supported": [
+          "Hydrostatic Proof Pressure at 200 kPa",
+          "Burst Pressure Testing (min 300 kPa)",
+          "Gasket Release System Operation",
+          "Safety Valve Fusible Plug Assessment"
+        ],
+        "testing_charge_inr": 12500,
+        "sample_turnaround_days": 8
+      },
+      {
+        "is_number": "IS 4151 : 2020",
+        "standard_code": "IS 4151",
+        "product": "Protective Helmets for Two-Wheeler Riders",
+        "tests_supported": [
+          "Impact Energy Attenuation (Flat/Hemispherical Anvil)",
+          "Penetration Test with 3kg Striker",
+          "Retention System Dynamic Slip & Rigidity",
+          "Visor Transmittance & Polycarbonate Projectile Impact"
+        ],
+        "testing_charge_inr": 21000,
+        "sample_turnaround_days": 15
+      }
+    ]
+  },
+  {
+    "id": "lab-002",
+    "lab_code": "BIS-SRL-02",
+    "name": "Bureau of Indian Standards Southern Regional Laboratory (SRL)",
+    "lab_type": "BIS Own Regional Laboratory",
+    "address": "CIT Campus, 4th Cross Road, Taramani",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600113",
+    "contact_person": "Scientist E / Lab In-Charge",
+    "phone": "+91-44-22541442",
+    "email": "srl@bis.gov.in",
+    "validity_date": "2030-12-31",
+    "accreditation_status": "NABL Accredited & BIS Regional Laboratory",
+    "supported_standards": [
+      {
+        "is_number": "IS 302 (Part 2/Sec 15) : 2009",
+        "standard_code": "IS 302-2-15",
+        "product": "Electric Kettles & Liquid Heating Appliances",
+        "tests_supported": [
+          "Leakage Current & Dielectric Strength",
+          "Boil-Dry Endurance Test",
+          "Thermal Cut-Out Cycle Validation"
+        ],
+        "testing_charge_inr": 17500,
+        "sample_turnaround_days": 12
+      },
+      {
+        "is_number": "IS 14543 : 2024",
+        "standard_code": "IS 14543",
+        "product": "Packaged Drinking Water",
+        "tests_supported": [
+          "Complete Chemical Analysis",
+          "Microbiology (E. coli, Coliform, Pseudomonas)",
+          "Heavy Metals Screen"
+        ],
+        "testing_charge_inr": 22500,
+        "sample_turnaround_days": 9
+      },
+      {
+        "is_number": "IS 1786 : 2008",
+        "standard_code": "IS 1786",
+        "product": "High Strength Deformed Steel Bars (TMT)",
+        "tests_supported": [
+          "0.2% Proof Stress & Tensile Strength",
+          "180 Degree Cold Bend & Rebend Test",
+          "Chemical Composition (C, S, P, CE)",
+          "Rib Geometry Profile"
+        ],
+        "testing_charge_inr": 14000,
+        "sample_turnaround_days": 7
+      },
+      {
+        "is_number": "IS 269 : 2015",
+        "standard_code": "IS 269",
+        "product": "Ordinary Portland Cement",
+        "tests_supported": [
+          "Compressive Strength at 3, 7, and 28 Days",
+          "Initial & Final Setting Time via Vicat",
+          "Le Chatelier and Autoclave Soundness",
+          "Blaine Air Permeability Fineness"
+        ],
+        "testing_charge_inr": 11500,
+        "sample_turnaround_days": 28
+      }
+    ]
+  },
+  {
+    "id": "lab-003",
+    "lab_code": "BIS-REC-KA-01",
+    "name": "Bangalore Testing Laboratories Pvt. Ltd.",
+    "lab_type": "BIS Recognized Laboratory",
+    "address": "No. 47/3, Peenya Industrial Area, Phase II",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "pincode": "560058",
+    "contact_person": "Technical Director / Quality Manager",
+    "phone": "+91-80-28394551",
+    "email": "info@bangaloretestlab.com",
+    "validity_date": "2027-08-31",
+    "accreditation_status": "NABL ISO/IEC 17025 Accredited & BIS Recognized",
+    "supported_standards": [
+      {
+        "is_number": "IS 302 (Part 2/Sec 15) : 2009",
+        "standard_code": "IS 302-2-15",
+        "product": "Electric Kettles & Liquid Heating Appliances",
+        "tests_supported": [
+          "Full Safety & Construction Clauses",
+          "Leakage Current & Dielectric Voltage Test",
+          "Boil-Dry Protection & Cut-Off Mechanism",
+          "Glow-Wire & Flammability Testing"
+        ],
+        "testing_charge_inr": 19000,
+        "sample_turnaround_days": 10
+      },
+      {
+        "is_number": "IS 9873 (Part 1) : 2019",
+        "standard_code": "IS 9873-1",
+        "product": "Children Toys",
+        "tests_supported": [
+          "Mechanical Small Parts Cylinder Verification",
+          "Drop & Impact Dynamic Simulation",
+          "Sharp Edge & Point Testing"
+        ],
+        "testing_charge_inr": 15000,
+        "sample_turnaround_days": 8
+      },
+      {
+        "is_number": "IS 2347 : 2017",
+        "standard_code": "IS 2347",
+        "product": "Domestic Pressure Cookers",
+        "tests_supported": [
+          "Hydrostatic Pressure Testing (200 kPa)",
+          "Burst Pressure Verification (300 kPa)",
+          "Safety Valve Calibration & Operating Pressure"
+        ],
+        "testing_charge_inr": 13000,
+        "sample_turnaround_days": 7
+      }
+    ]
+  },
+  {
+    "id": "lab-004",
+    "lab_code": "BIS-REC-KA-02",
+    "name": "Karnataka Water & Environmental Research Labs",
+    "lab_type": "BIS Recognized Laboratory",
+    "address": "Plot 12B, KIADB Industrial Estate, Electronic City",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "pincode": "560100",
+    "contact_person": "Senior Chemist / Lab Operations Head",
+    "phone": "+91-80-41228890",
+    "email": "water.testing@karnatakalabs.org",
+    "validity_date": "2028-03-31",
+    "accreditation_status": "NABL Accredited & BIS Recognized for Water & Food",
+    "supported_standards": [
+      {
+        "is_number": "IS 14543 : 2024",
+        "standard_code": "IS 14543",
+        "product": "Packaged Drinking Water",
+        "tests_supported": [
+          "Physico-Chemical Complete Test (TDS, pH, Hardness)",
+          "Heavy Metals Detection via ICP-OES",
+          "Pesticide Residue Analysis (20+ compounds)",
+          "Microbiology: E. Coli, Coliforms, Faecal Streptococci"
+        ],
+        "testing_charge_inr": 21000,
+        "sample_turnaround_days": 7
+      }
+    ]
+  },
+  {
+    "id": "lab-005",
+    "lab_code": "BIS-WRL-03",
+    "name": "Bureau of Indian Standards Western Regional Laboratory (WRL)",
+    "lab_type": "BIS Own Regional Laboratory",
+    "address": "Manakalaya, E9, MIDC, Behind Marol Telephone Exchange, Andheri (East)",
+    "district": "Mumbai Suburban",
+    "state": "Maharashtra",
+    "pincode": "400093",
+    "contact_person": "Scientist F / Regional Director",
+    "phone": "+91-22-28329295",
+    "email": "wrl@bis.gov.in",
+    "validity_date": "2030-12-31",
+    "accreditation_status": "NABL Accredited & Apex BIS Regional Lab",
+    "supported_standards": [
+      {
+        "is_number": "IS 302 (Part 2/Sec 15) : 2009",
+        "standard_code": "IS 302-2-15",
+        "product": "Electric Kettles & Heating Appliances",
+        "tests_supported": [
+          "Complete Type Safety Testing",
+          "Leakage Current, Insulation Resistance",
+          "Boil Dry Endurance Cycle Test"
+        ],
+        "testing_charge_inr": 18000,
+        "sample_turnaround_days": 12
+      },
+      {
+        "is_number": "IS 4151 : 2020",
+        "standard_code": "IS 4151",
+        "product": "Protective Helmets for Two-Wheeler Riders",
+        "tests_supported": [
+          "Crash Impact Headform Acceleration",
+          "Penetration Striker Resistance",
+          "Chin Strap Retention Strength & Visor Test"
+        ],
+        "testing_charge_inr": 20500,
+        "sample_turnaround_days": 14
+      },
+      {
+        "is_number": "IS 15844 (Part 1) : 2023",
+        "standard_code": "IS 15844-1",
+        "product": "Sports Footwear",
+        "tests_supported": [
+          "Bennewart Flex Outsole Resistance (30k cycles)",
+          "DIN Abrasion Cylinder Volume Loss",
+          "Upper to Outsole Peel Adhesion Strength",
+          "Upper Tensile & Tear Properties"
+        ],
+        "testing_charge_inr": 14500,
+        "sample_turnaround_days": 10
+      }
+    ]
+  },
+  {
+    "id": "lab-006",
+    "lab_code": "BIS-REC-DL-03",
+    "name": "National Test House (Northern Region)",
+    "lab_type": "Government Recognized Laboratory",
+    "address": "Kamla Nehru Nagar",
+    "district": "Ghaziabad",
+    "state": "Delhi-NCR",
+    "pincode": "201002",
+    "contact_person": "Scientist In-Charge (Mechanical & Chemical)",
+    "phone": "+91-120-2789823",
+    "email": "nthnr@nic.in",
+    "validity_date": "2028-11-30",
+    "accreditation_status": "NABL Accredited & BIS Empanelled",
+    "supported_standards": [
+      {
+        "is_number": "IS 1786 : 2008",
+        "standard_code": "IS 1786",
+        "product": "High Strength Deformed Steel Bars (TMT)",
+        "tests_supported": [
+          "Spectrometric Chemical Analysis (C, S, P, CE)",
+          "Universal Testing Machine Tensile & Proof Stress",
+          "Rebend Test & Rib Area Factor Measurement"
+        ],
+        "testing_charge_inr": 12000,
+        "sample_turnaround_days": 6
+      },
+      {
+        "is_number": "IS 269 : 2015",
+        "standard_code": "IS 269",
+        "product": "Ordinary Portland Cement",
+        "tests_supported": [
+          "28 Days Compressive Strength Crushing",
+          "Chemical Loss on Ignition & Insoluble Residue",
+          "Vicat Setting Times & Le Chatelier Soundness"
+        ],
+        "testing_charge_inr": 10500,
+        "sample_turnaround_days": 28
+      }
+    ]
+  }
+]

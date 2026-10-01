@@ -1,0 +1,544 @@
+[
+  {
+    "id": "std-001",
+    "is_number": "IS 302 (Part 2/Sec 15) : 2009",
+    "code": "IS 302-2-15",
+    "title": "Safety of Household and Similar Electrical Appliances - Particular Requirements for Appliances for Heating Liquids",
+    "product": "Electric Kettle, Water Boiler, Coffee Maker, Steam Cooker",
+    "category": "Electrical Appliances",
+    "scope": "This standard deals with the safety of electric appliances for heating liquids for household and similar purposes, their rated voltage being not more than 250 V single-phase or 480 V other appliances.",
+    "status": "Current",
+    "revision_year": 2009,
+    "reaffirmation_year": 2024,
+    "technical_department": "Electrotechnical Department (ETD)",
+    "committee": "ETD 32 - Electrical Appliances",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Electrical Appliances (Quality Control) Order, 2023",
+    "qco_id": "qco-001",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "7.1",
+        "title": "Marking and Instructions",
+        "requirement": "Appliances shall be marked with rated voltage (V), rated power input (W), manufacturer name/trademark, model reference, and symbol for nature of supply."
+      },
+      {
+        "clause": "8.1",
+        "title": "Protection Against Access to Live Parts",
+        "requirement": "Appliances shall be constructed and enclosed so that there is adequate protection against accidental contact with live parts using test probe B."
+      },
+      {
+        "clause": "13.2",
+        "title": "Leakage Current and Electric Strength at Operating Temperature",
+        "requirement": "Leakage current shall not exceed 0.75 mA for Class I portable appliances. Electric strength test applied at 1000 V AC for basic insulation."
+      },
+      {
+        "clause": "19.101",
+        "title": "Abnormal Operation - Boil-Dry Test",
+        "requirement": "Kettles are operated empty at 1.15 times rated power input until the thermal cut-out operates. No hazard, fire, or emission of molten metal is permitted."
+      },
+      {
+        "clause": "22.103",
+        "title": "Cordless Kettle Interlock Mechanism",
+        "requirement": "Cordless kettles shall incorporate contacts that disconnect supply before the kettle is lifted from its base, preventing live terminal exposure."
+      },
+      {
+        "clause": "30.1",
+        "title": "Resistance to Heat and Fire",
+        "requirement": "Non-metallic parts supporting electrical connections must withstand glow-wire test at 850°C and needle-flame test per IS 11000."
+      }
+    ],
+    "required_tests": [
+      "Protection Against Access to Live Parts (Test Probe B)",
+      "Leakage Current & Dielectric Electric Strength at Operating Temp",
+      "Power Input and Current Measurement",
+      "Boil-Dry Abnormal Operation Test",
+      "Thermal Cut-Out Cycle Endurance Test",
+      "Spill-Over Moisture Resistance Test",
+      "Glow-Wire Test (850°C) for Fire Resistance"
+    ],
+    "keywords": [
+      "electric kettle", "water boiler", "kettle", "heating liquids", "cordless kettle", "tea maker", "coffee maker", "immersion heater", "heating element"
+    ]
+  },
+  {
+    "id": "std-002",
+    "is_number": "IS 14543 : 2024",
+    "code": "IS 14543",
+    "title": "Packaged Drinking Water (Other Than Packaged Natural Mineral Water) - Specification",
+    "product": "Packaged Drinking Water, Bottled Water, 20L Water Jars, Water Pouches",
+    "category": "Food & Agriculture",
+    "scope": "Prescribes requirements and methods of sampling and testing for packaged drinking water (other than packaged natural mineral water) offered for direct consumption.",
+    "status": "Current",
+    "revision_year": 2024,
+    "reaffirmation_year": 2026,
+    "technical_department": "Food and Agriculture Department (FAD)",
+    "committee": "FAD 14 - Drinks and Carbonated Beverages",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Ministry of Health & Family Welfare Notification & Food Safety and Standards (Packaging) Regulations",
+    "qco_id": "qco-002",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "3.2",
+        "title": "Treatment Technologies",
+        "requirement": "Water shall be derived from surface, ground or municipal source and subjected to filtration, aeration, demineralization, RO, and disinfection by UV/Ozonation."
+      },
+      {
+        "clause": "4.1",
+        "title": "Physical and Sensory Requirements",
+        "requirement": "TDS max 500 mg/L, Turbidity max 2 NTU, pH range 6.5 to 8.5, Odour unobjectionable, Taste agreeable."
+      },
+      {
+        "clause": "4.2",
+        "title": "Chemical Requirements & Toxic Substances",
+        "requirement": "Lead max 0.01 mg/L, Arsenic max 0.01 mg/L, Cadmium max 0.003 mg/L, Mercury max 0.001 mg/L, Nitrate max 45 mg/L."
+      },
+      {
+        "clause": "5.1",
+        "title": "Microbiological Requirements",
+        "requirement": "Escherichia coli: Absent in 250 ml; Coliform bacteria: Absent in 250 ml; Faecal streptococci: Absent in 250 ml; Pseudomonas aeruginosa: Absent in 250 ml; Yeast & Mould: Absent."
+      },
+      {
+        "clause": "7.1",
+        "title": "Packaging Materials",
+        "requirement": "Shall be packed in food-grade plastic containers conforming to IS 15410 or glass containers conforming to IS 13983."
+      }
+    ],
+    "required_tests": [
+      "Total Dissolved Solids (TDS) and pH Level",
+      "Heavy Metals: Lead, Arsenic, Cadmium, Mercury via ICP-MS",
+      "Pesticide Residue Analysis (Individual max 0.0001 mg/L)",
+      "Microbiological Testing: E. Coli, Coliforms, Pseudomonas Aeruginosa",
+      "Radioactive Contaminants: Alpha and Beta activity",
+      "Packaging Migration Test per IS 9845"
+    ],
+    "keywords": [
+      "packaged drinking water", "mineral water", "bottled water", "water jar", "drinking water", "water plant", "RO water", "water bottle"
+    ]
+  },
+  {
+    "id": "std-003",
+    "is_number": "IS 9873 (Part 1) : 2019",
+    "code": "IS 9873-1",
+    "title": "Safety of Toys - Part 1: Safety Aspects Related to Mechanical and Physical Properties",
+    "product": "Children Toys, Plastic Toys, Educational Toys, Plush Toys, Ride-on Toys",
+    "category": "Consumer Goods & Safety",
+    "scope": "Applies to all toys intended for use by children under 14 years of age. Specifies requirements and test methods for mechanical and physical properties including small parts and sharp edges.",
+    "status": "Current",
+    "revision_year": 2019,
+    "reaffirmation_year": 2024,
+    "technical_department": "Mechanical Engineering Department (MED)",
+    "committee": "MED 27 - Toys and Play Equipment",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Toys (Quality Control) Order, 2020 (DPIIT)",
+    "qco_id": "qco-003",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "4.4",
+        "title": "Small Parts for Children Under 36 Months",
+        "requirement": "Toys and removable parts must not fit completely into the small parts cylinder (31.7 mm diameter) to eliminate choking hazards."
+      },
+      {
+        "clause": "4.7",
+        "title": "Sharp Edges and Points",
+        "requirement": "Accessible edges of toys shall not possess sharp burrs or glass/metal edges as assessed by the sharp edge tester."
+      },
+      {
+        "clause": "4.12",
+        "title": "Folding Mechanisms and Hinges",
+        "requirement": "Toy pushchairs, prams, and folding toys must have locking devices to prevent accidental collapse."
+      },
+      {
+        "clause": "5.2",
+        "title": "Drop and Impact Resistance Test",
+        "requirement": "Toy subjected to 5 drops from 850 mm onto steel plate without releasing hazardous small parts or sharp projections."
+      }
+    ],
+    "required_tests": [
+      "Small Parts Cylinder Choking Hazard Test (under 36 months)",
+      "Sharp Edges and Accessible Points Verification",
+      "Drop and Impact Resistance Mechanical Test",
+      "Tension and Torque Test for Detachable Parts",
+      "Heavy Element Migration Test (Lead, Cadmium per IS 9873 Part 3)",
+      "Flammability Rate Assessment per IS 9873 Part 2"
+    ],
+    "keywords": [
+      "toys", "children toys", "plastic toys", "wooden toys", "plush toy", "educational toy", "doll", "toy car", "puzzle"
+    ]
+  },
+  {
+    "id": "std-004",
+    "is_number": "IS 2347 : 2017",
+    "code": "IS 2347",
+    "title": "Domestic Pressure Cookers - Specification (Fifth Revision)",
+    "product": "Domestic Pressure Cooker, Aluminium Pressure Cooker, Stainless Steel Cooker",
+    "category": "Household & Kitchen Utensils",
+    "scope": "Prescribes requirements for domestic pressure cookers intended for cooking food under pressure using heat from gas stoves, induction, electricity, or solid fuels.",
+    "status": "Current",
+    "revision_year": 2017,
+    "reaffirmation_year": 2023,
+    "technical_department": "Mechanical Engineering Department (MED)",
+    "committee": "MED 33 - Domestic and Commercial Cookware",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Domestic Pressure Cooker (Quality Control) Order, 2020",
+    "qco_id": "qco-004",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "4.1",
+        "title": "Material of Body and Lid",
+        "requirement": "Aluminium alloy conforming to IS 21 or stainless steel conforming to grade 304 (04Cr18Ni10) of IS 6911."
+      },
+      {
+        "clause": "5.3",
+        "title": "Nominal Capacity and Proof Pressure",
+        "requirement": "Cookers shall withstand hydrostatic test pressure of 200 kPa (2.0 kgf/cm²) without leakage or permanent deformation."
+      },
+      {
+        "clause": "6.2",
+        "title": "Safety Devices - Weight Valve & Safety Valve",
+        "requirement": "Every pressure cooker must feature an operating pressure regulating device (vent weight) and a secondary fusible metallic safety plug."
+      },
+      {
+        "clause": "6.4",
+        "title": "Gasket Release System (GRS)",
+        "requirement": "Lid shall incorporate a controlled gasket release aperture that vents steam safely downward if both primary and secondary valves clog."
+      },
+      {
+        "clause": "8.1",
+        "title": "Burst Pressure Test",
+        "requirement": "The pressure cooker body must withstand a minimum hydrostatic pressure of 300 kPa (3.0 bar) without bursting."
+      }
+    ],
+    "required_tests": [
+      "Hydrostatic Proof Pressure Test at 200 kPa",
+      "Bursting Pressure Test (minimum 300 kPa)",
+      "Safety Valve Fusible Plug Release Temperature Verification",
+      "Gasket Release System (GRS) Operation under Blocked Nozzle",
+      "Handle Thermal Insulation and Impact Strength Test",
+      "Cooker Internal Volume and Working Pressure Verification"
+    ],
+    "keywords": [
+      "pressure cooker", "cooker", "domestic pressure cooker", "stainless steel cooker", "aluminium pressure cooker", "cookware", "kitchen appliance"
+    ]
+  },
+  {
+    "id": "std-005",
+    "is_number": "IS 4151 : 2020",
+    "code": "IS 4151",
+    "title": "Protective Helmets for Two Wheeler Riders - Specification",
+    "product": "Motorcycle Helmet, Two Wheeler Helmet, Full Face Helmet, Open Face Helmet",
+    "category": "Automotive & Road Safety",
+    "scope": "Specifies requirements regarding construction, finish, mass, test methods, and performance for protective helmets intended for riders of two-wheeled motor vehicles.",
+    "status": "Current",
+    "revision_year": 2020,
+    "reaffirmation_year": 2025,
+    "technical_department": "Transport Engineering Department (TED)",
+    "committee": "TED 26 - Automotive Safety and Crash Protection",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Helmet for Two Wheeler Riders (Quality Control) Order, 2020 (MoRTH)",
+    "qco_id": "qco-005",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "4.2",
+        "title": "Maximum Weight Limit",
+        "requirement": "The maximum weight of the complete helmet with visor and all accessories shall not exceed 1.2 kg."
+      },
+      {
+        "clause": "7.2",
+        "title": "Impact Energy Attenuation Test",
+        "requirement": "Impacted against flat and hemispherical steel anvils at 7.5 m/s drop speed. Peak headform acceleration shall not exceed 300g (HIC <= 2400)."
+      },
+      {
+        "clause": "7.3",
+        "title": "Penetration Resistance",
+        "requirement": "A 3 kg conical metal striker dropped from 1 metre shall not make electrical contact with the headform."
+      },
+      {
+        "clause": "7.4",
+        "title": "Retention System (Chin Strap) Strength",
+        "requirement": "Subjected to dynamic drop test and static tensile load of 1500 N; maximum elongation must not exceed 25 mm."
+      },
+      {
+        "clause": "7.7",
+        "title": "Visor Optical & Mechanical Properties",
+        "requirement": "Luminous transmittance minimum 85% for clear visors; shatter-proof polycarbonate tested against high-speed projectile impact."
+      }
+    ],
+    "required_tests": [
+      "Impact Attenuation Test (Flat & Hemispherical Anvil)",
+      "Penetration Resistance Test (3 kg Striker)",
+      "Retention System Strength and Dynamic Slippage Test",
+      "Visor Optical Clarity and Abrasion Resistance Test",
+      "Rigidity and Lateral Deformation Test",
+      "Conditioning Exposure: High Heat (+50°C), Cold (-10°C), Water Immersion"
+    ],
+    "keywords": [
+      "helmet", "motorcycle helmet", "two wheeler helmet", "bike helmet", "protective helmet", "headgear", "visor"
+    ]
+  },
+  {
+    "id": "std-006",
+    "is_number": "IS 15844 (Part 1) : 2023",
+    "code": "IS 15844-1",
+    "title": "Sports Footwear - Part 1: General Purpose",
+    "product": "Sports Shoes, Running Shoes, Walking Shoes, Athletic Footwear",
+    "category": "Textiles & Leather",
+    "scope": "Prescribes requirements, methods of sampling, and test for sports footwear intended for general fitness, athletic, and jogging activities.",
+    "status": "Current",
+    "revision_year": 2023,
+    "reaffirmation_year": 2026,
+    "technical_department": "Chemical Department (CHD)",
+    "committee": "CHD 17 - Footwear and Leather Products",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Footwear Made from Leather and Other Materials (Quality Control) Order, 2024",
+    "qco_id": "qco-006",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "5.1",
+        "title": "Upper Material Properties",
+        "requirement": "Tensile strength of textile/synthetic upper min 15 N/mm²; tear strength min 40 N; breathability min 0.8 mg/cm²·h."
+      },
+      {
+        "clause": "5.4",
+        "title": "Outsole Flexing Resistance",
+        "requirement": "Bennewart flex test: Outsole must withstand 30,000 cycles with cut growth not exceeding 4.0 mm."
+      },
+      {
+        "clause": "5.5",
+        "title": "Abrasion Resistance of Sole",
+        "requirement": "Relative volume loss under DIN abrasion cylinder test shall not exceed 150 mm³ for density >= 0.9 g/cm³."
+      },
+      {
+        "clause": "5.6",
+        "title": "Upper-to-Sole Bond Strength",
+        "requirement": "Peel adhesion strength between upper and sole must be at least 4.0 N/mm or material tear."
+      }
+    ],
+    "required_tests": [
+      "Sole Flexing Resistance (Bennewart Flex 30,000 cycles)",
+      "Outsole Abrasion Resistance Test (DIN Abrasion)",
+      "Upper to Sole Bond Adhesion Strength",
+      "Heel Energy Absorption Test",
+      "Tear Strength and Tensile Strength of Upper",
+      "Slip Resistance Coefficient Test"
+    ],
+    "keywords": [
+      "sports shoes", "footwear", "running shoes", "sneakers", "athletic footwear", "shoes", "leather shoes", "boots"
+    ]
+  },
+  {
+    "id": "std-007",
+    "is_number": "IS 1786 : 2008",
+    "code": "IS 1786",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "product": "TMT Rebars, Steel Reinforcement Bars, Fe 500D, Fe 550D, Concrete Reinforcing Steel",
+    "category": "Metallurgical Engineering",
+    "scope": "Covers requirements for deformed steel bars and wires produced by thermo-mechanical treatment (TMT) or cold-working for use as reinforcement in concrete.",
+    "status": "Current",
+    "revision_year": 2008,
+    "reaffirmation_year": 2024,
+    "technical_department": "Metallurgical Engineering Department (MTD)",
+    "committee": "MTD 4 - Wrought Steel Products",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Steel and Steel Products (Quality Control) Order, 2020 (Ministry of Steel)",
+    "qco_id": "qco-007",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "4.2",
+        "title": "Chemical Composition Limits",
+        "requirement": "For Fe 500D: Carbon max 0.25%, Sulphur max 0.040%, Phosphorus max 0.040%, S+P max 0.075%, Carbon Equivalent max 0.42%."
+      },
+      {
+        "clause": "8.1",
+        "title": "Tensile and Yield Strength Requirements",
+        "requirement": "Fe 500D: 0.2% Proof Stress min 500 N/mm²; Tensile Strength min 565 N/mm²; TS/YS ratio min 1.10; Elongation min 16.0%."
+      },
+      {
+        "clause": "9.1",
+        "title": "Bend and Rebend Test",
+        "requirement": "Bars must withstand 180° cold bend around mandrel without crack or rupture; rebend test after boiling at 100°C for 30 minutes."
+      },
+      {
+        "clause": "11.1",
+        "title": "Nominal Mass Tolerances",
+        "requirement": "Cross-sectional weight tolerance: ±7% for dia <= 10mm, ±5% for dia 10-16mm, ±3% for dia > 16mm."
+      }
+    ],
+    "required_tests": [
+      "Chemical Analysis: Carbon, Sulphur, Phosphorus via Optical Emission Spectrometer",
+      "Tensile Proof Stress (0.2% offset) and Ultimate Tensile Strength",
+      "Percentage Elongation and Total Elongation at Maximum Force (Agt)",
+      "180 Degree Cold Bend Test and Reverse Rebend Test",
+      "Nominal Weight per Metre Measurement",
+      "Transverse and Longitudinal Rib Geometry and Spacing Verification"
+    ],
+    "keywords": [
+      "steel", "tmt bars", "rebars", "concrete reinforcement", "fe 500", "fe 500d", "steel rods", "civil construction steel", "sariya"
+    ]
+  },
+  {
+    "id": "std-008",
+    "is_number": "IS 269 : 2015",
+    "code": "IS 269",
+    "title": "Ordinary Portland Cement - Specification (Sixth Revision)",
+    "product": "OPC Cement, OPC 33, OPC 43, OPC 53 Grade Cement",
+    "category": "Civil Engineering & Building Materials",
+    "scope": "Covers manufacture, chemical, and physical requirements for Ordinary Portland Cement of 33 grade, 43 grade, and 53 grade.",
+    "status": "Current",
+    "revision_year": 2015,
+    "reaffirmation_year": 2025,
+    "technical_department": "Civil Engineering Department (CED)",
+    "committee": "CED 2 - Cement and Concrete",
+    "scheme": "Scheme I (ISI Mark)",
+    "is_mandatory": true,
+    "qco_reference": "Cement (Quality Control) Order, 2023 (DPIIT)",
+    "qco_id": "qco-008",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "5.1",
+        "title": "Chemical Requirements",
+        "requirement": "Ratio of percentage of lime to percentages of silica, alumina and iron oxide (LSF) shall be 0.66 to 1.02. Insoluble residue max 5.0%, Magnesia max 6.0%."
+      },
+      {
+        "clause": "6.1",
+        "title": "Compressive Strength Requirements",
+        "requirement": "OPC 53 Grade: 72±1 h compressive strength min 27 MPa; 168±2 h min 37 MPa; 672±4 h (28 days) min 53 MPa."
+      },
+      {
+        "clause": "6.3",
+        "title": "Setting Time",
+        "requirement": "Initial setting time not less than 30 minutes; Final setting time not more than 600 minutes via Vicat apparatus."
+      },
+      {
+        "clause": "6.4",
+        "title": "Soundness Test",
+        "requirement": "Unaffected by Le Chatelier expansion exceeding 10 mm and Autoclave expansion exceeding 0.8%."
+      }
+    ],
+    "required_tests": [
+      "Compressive Strength at 3 Days, 7 Days, and 28 Days",
+      "Initial and Final Setting Time via Vicat Needle",
+      "Le Chatelier and Autoclave Soundness Determination",
+      "Fineness by Blaine Air Permeability Apparatus (min 225 m²/kg)",
+      "Chemical Loss on Ignition (LOI) and Insoluble Residue Analysis",
+      "Sulphuric Anhydride (SO3) Content Determination"
+    ],
+    "keywords": [
+      "cement", "opc", "opc 53", "opc 43", "ordinary portland cement", "construction cement", "concrete", "mortar"
+    ]
+  },
+  {
+    "id": "std-009",
+    "is_number": "IS 1417 : 2016",
+    "code": "IS 1417",
+    "title": "Gold and Gold Alloys, Jewellery/Artefacts - Fineness and Marking - Specification",
+    "product": "Gold Jewellery, Gold Coins, Gold Bangles, Chains, Rings, Bullion",
+    "category": "Hallmarking & Precious Metals",
+    "scope": "Specifies fineness grades of gold alloys used for manufacture of jewellery/artefacts, and details official marking requirements including the BIS Logo, Purity, and 6-digit HUID.",
+    "status": "Current",
+    "revision_year": 2016,
+    "reaffirmation_year": 2025,
+    "technical_department": "Metallurgical Engineering Department (MTD)",
+    "committee": "MTD 10 - Precious Metals and Jewellery",
+    "scheme": "Scheme IV (Hallmarking)",
+    "is_mandatory": true,
+    "qco_reference": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020 & 2026 Amendments",
+    "qco_id": "qco-009",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "4.1",
+        "title": "Recognized Karatage and Fineness Grades",
+        "requirement": "Permitted standards: 24K (999 parts per thousand), 23K (958), 22K (916), 20K (833), 18K (750), 14K (585), and 9K (375)."
+      },
+      {
+        "clause": "5.1",
+        "title": "Official Three-Mark Hallmarking System",
+        "requirement": "Every piece of hallmarked jewellery must bear: (1) BIS Standard Mark triangular crest; (2) Purity in karat and fineness (e.g. 22K916); (3) 6-digit alphanumeric HUID."
+      },
+      {
+        "clause": "6.2",
+        "title": "HUID (Hallmark Unique Identification)",
+        "requirement": "Unique laser-engraved 6-character identifier (e.g. 'AB1234') generated by the central BIS Hallmarking portal at recognized A&H Centres."
+      },
+      {
+        "clause": "7.1",
+        "title": "Fire Assay Testing Method",
+        "requirement": "Gold purity determination shall be performed in accordance with IS 1418 using cupellation and fire assaying method with accuracy ±0.5 parts per thousand."
+      }
+    ],
+    "required_tests": [
+      "X-Ray Fluorescence (XRF) Preliminary Non-Destructive Screening",
+      "Cupellation & Fire Assay Chemical Verification (per IS 1418)",
+      "Touchstone Comparative Verification",
+      "Laser Inscription Integrity and Legibility Verification",
+      "Soldering Alloy Purity and Lead/Cadmium Free Certification"
+    ],
+    "keywords": [
+      "gold", "hallmarking", "huid", "gold jewellery", "22k916", "18k750", "jeweller registration", "assaying centre", "karat", "gold purity"
+    ]
+  },
+  {
+    "id": "std-010",
+    "is_number": "IS 2112 : 2014",
+    "code": "IS 2112",
+    "title": "Silver and Silver Alloys, Jewellery/Artefacts - Fineness and Marking - Specification",
+    "product": "Silver Jewellery, Silver Utensils, Silver Coins, Silver Artefacts",
+    "category": "Hallmarking & Precious Metals",
+    "scope": "Specifies fineness grades of silver and silver alloys used in the manufacture of jewellery/artefacts and marking guidelines under voluntary and notified hallmarking.",
+    "status": "Current",
+    "revision_year": 2014,
+    "reaffirmation_year": 2024,
+    "technical_department": "Metallurgical Engineering Department (MTD)",
+    "committee": "MTD 10 - Precious Metals and Jewellery",
+    "scheme": "Scheme IV (Hallmarking)",
+    "is_mandatory": false,
+    "qco_reference": "Voluntary Silver Hallmarking Notification (Consumer Protection Guidelines)",
+    "qco_id": "qco-010",
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/indian_standards/isdetails",
+    "last_verified_at": "2026-09-30",
+    "clauses": [
+      {
+        "clause": "4.1",
+        "title": "Silver Fineness Grades",
+        "requirement": "Standard silver grades recognized: 999 (fine silver), 970, 925 (Sterling Silver), 900, 835, and 800 parts per thousand."
+      },
+      {
+        "clause": "5.1",
+        "title": "Silver Hallmark Marks",
+        "requirement": "Bears BIS mark, fineness grade number (e.g. 925), Assaying centre identification mark, and registered jeweller's identification mark."
+      }
+    ],
+    "required_tests": [
+      "Volumetric (Potentiometric) Silver Titration per IS 2113",
+      "XRF Spectrometry Screening",
+      "Gravimetric Chloride Precipitation Test"
+    ],
+    "keywords": [
+      "silver", "silver hallmarking", "sterling silver", "925 silver", "silver coins", "silver jewellery", "silver artefacts"
+    ]
+  }
+]

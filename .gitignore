@@ -1,0 +1,63 @@
+# MANAK AI - Intelligent Assistant for Indian Standards & BIS Services
+
+# Environment variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cert
+secrets/
+credentials/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+manak_ai.db
+backend/manak_ai.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.next/
+out/
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+*.tmp
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

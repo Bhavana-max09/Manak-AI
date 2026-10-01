@@ -1,0 +1,135 @@
+{
+  "overview": {
+    "title": "BIS Hallmarking Scheme for Precious Metals",
+    "governing_standard": "IS 1417 : 2016 (Gold) & IS 2112 : 2014 (Silver)",
+    "statutory_order": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020",
+    "enforcement_status": "Mandatory in 350+ notified districts across India (Phase-I to Phase-V rollout)",
+    "description": "Hallmarking is the accurate determination and official recording of the proportionate content of precious metal in gold and silver articles. It protects consumers from adulteration and guarantees stated purity."
+  },
+  "hallmark_signs": [
+    {
+      "mark_number": 1,
+      "name": "BIS Standard Mark",
+      "symbol": "Triangular BIS Emblem",
+      "description": "Certifies that the precious metal artefact conforms to the relevant Indian Standard."
+    },
+    {
+      "mark_number": 2,
+      "name": "Purity Grade and Karatage",
+      "symbol": "e.g., 22K916 or 18K750",
+      "description": "Indicates fineness in parts per thousand alongside the corresponding karat grade."
+    },
+    {
+      "mark_number": 3,
+      "name": "Hallmark Unique Identification (HUID)",
+      "symbol": "6-Character Alphanumeric Code",
+      "description": "Unique laser-inscribed code for every individual jewellery piece, enabling complete digital traceability via BIS CARE."
+    }
+  ],
+  "purity_grades": [
+    {
+      "karat": "24K",
+      "fineness": 999,
+      "percentage": "99.9% Pure Gold",
+      "marking": "24K999",
+      "typical_use": "Bullion coins, investment bars, special minted artefacts"
+    },
+    {
+      "karat": "23K",
+      "fineness": 958,
+      "percentage": "95.8% Gold",
+      "marking": "23K958",
+      "typical_use": "Traditional hand-crafted jewellery"
+    },
+    {
+      "karat": "22K",
+      "fineness": 916,
+      "percentage": "91.6% Gold",
+      "marking": "22K916",
+      "typical_use": "Primary standard for Indian bridal jewellery, bangles, chains, necklaces"
+    },
+    {
+      "karat": "20K",
+      "fineness": 833,
+      "percentage": "83.3% Gold",
+      "marking": "20K833",
+      "typical_use": "Durable gold ornaments and temple jewellery"
+    },
+    {
+      "karat": "18K",
+      "fineness": 750,
+      "percentage": "75.0% Gold",
+      "marking": "18K750",
+      "typical_use": "Diamond, gemstone, and pearl-studded high-end jewellery"
+    },
+    {
+      "karat": "14K",
+      "fineness": 585,
+      "percentage": "58.5% Gold",
+      "marking": "14K585",
+      "typical_use": "Contemporary lightweight daily-wear and modern western jewellery"
+    },
+    {
+      "karat": "9K",
+      "fineness": 375,
+      "percentage": "37.5% Gold",
+      "marking": "9K375",
+      "typical_use": "Budget-friendly durable daily jewellery"
+    }
+  ],
+  "consumer_rights": {
+    "compensation_rule": "If hallmarked jewellery is tested in a BIS-recognized referral lab and found of lesser purity than marked, the consumer is entitled to compensation equal to two times the shortfall calculated on prevailing market rate, plus refund of full testing charges.",
+    "testing_for_citizens": "Any consumer can get their hallmarked jewellery tested at any BIS-recognized Assaying & Hallmarking Centre (A&HC) on priority by paying nominal testing fee of ₹45 per article.",
+    "mobile_verification": "Consumers can instantly verify the authenticity of their hallmarked jewellery by entering the 6-digit HUID in the official BIS CARE mobile application (available on Android & iOS)."
+  },
+  "sample_huid_records": [
+    {
+      "huid": "AB1234",
+      "article_type": "Gold Bangle (Pair)",
+      "purity": "22K (916 Fineness)",
+      "gross_weight_g": 32.45,
+      "hallmarked_date": "2026-01-14",
+      "ahc_centre": "Apex Assaying & Hallmarking Centre, Peenya, Bengaluru",
+      "ahc_code": "AHC-KA-001",
+      "jeweller_name": "Tanishq - Titan Company Ltd, MG Road, Bengaluru",
+      "jeweller_registration_no": "CM/L-8291044",
+      "status": "Authentic & Verified Active Record"
+    },
+    {
+      "huid": "KA5678",
+      "article_type": "Diamond Studded Ring",
+      "purity": "18K (750 Fineness)",
+      "gross_weight_g": 6.80,
+      "hallmarked_date": "2026-02-22",
+      "ahc_centre": "Mysore Royal Assaying Centre, Mysuru",
+      "ahc_code": "AHC-KA-008",
+      "jeweller_name": "Malabar Gold & Diamonds, Mysuru Branch",
+      "jeweller_registration_no": "CM/L-7182901",
+      "status": "Authentic & Verified Active Record"
+    },
+    {
+      "huid": "MH9988",
+      "article_type": "Gold Coin (Goddess Lakshmi)",
+      "purity": "24K (999 Fineness)",
+      "gross_weight_g": 10.00,
+      "hallmarked_date": "2026-03-05",
+      "ahc_centre": "Zaveri Bazaar Gold Assaying & Refining Centre, Mumbai",
+      "ahc_code": "AHC-MH-012",
+      "jeweller_name": "MMTC-PAMP India Pvt Ltd, Mumbai",
+      "jeweller_registration_no": "CM/L-9012431",
+      "status": "Authentic & Verified Active Record"
+    },
+    {
+      "huid": "DL3344",
+      "article_type": "Traditional Bridal Necklace",
+      "purity": "22K (916 Fineness)",
+      "gross_weight_g": 48.20,
+      "hallmarked_date": "2026-04-18",
+      "ahc_centre": "Karol Bagh Assay Laboratory, New Delhi",
+      "ahc_code": "AHC-DL-004",
+      "jeweller_name": "Kalyan Jewellers, South Extension, New Delhi",
+      "jeweller_registration_no": "CM/L-6345129",
+      "status": "Authentic & Verified Active Record"
+    }
+  ]
+}
