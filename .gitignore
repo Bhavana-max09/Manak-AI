@@ -1,9 +1,9 @@
 # MANAK AI - Intelligent Assistant for Indian Standards & BIS Services
 
-# Environment variables & Secrets
+# Environment variables, example files & Secrets
 .env
 .env.*
-!.env.example
+*.env
 *.pem
 *.key
 *.pfx
