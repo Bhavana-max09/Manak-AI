@@ -19,6 +19,7 @@ export function App() {
   const [userRole, setUserRole] = useState<UserRole | null>(null);
 
   const [activeTab, setActiveTab] = useState('dashboard');
+  const [selectedLanguage, setSelectedLanguage] = useState('en');
   const [chatInitialQuery, setChatInitialQuery] = useState<string | undefined>();
   const [labFilterStandard, setLabFilterStandard] = useState<string | undefined>();
   const [selectedStandardId, setSelectedStandardId] = useState<string | undefined>();
@@ -60,6 +61,8 @@ export function App() {
         setActiveTab={setActiveTab}
         userRole={userRole}
         onLogout={handleLogout}
+        selectedLanguage={selectedLanguage}
+        setSelectedLanguage={setSelectedLanguage}
       />
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -70,7 +73,7 @@ export function App() {
         {activeTab === 'chat' && (
           <ChatView
             initialQuery={chatInitialQuery}
-            language="en"
+            language={selectedLanguage}
             onNavigate={handleNavigate}
           />
         )}

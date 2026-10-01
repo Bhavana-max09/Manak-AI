@@ -8,7 +8,8 @@ import {
   Gem,
   FileText,
   Activity,
-  LogOut
+  LogOut,
+  Globe
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -16,13 +17,17 @@ interface NavbarProps {
   setActiveTab: (tab: string) => void;
   userRole?: string;
   onLogout?: () => void;
+  selectedLanguage: string;
+  setSelectedLanguage: (lang: string) => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
   activeTab,
   setActiveTab,
   userRole = 'manufacturer',
-  onLogout
+  onLogout,
+  selectedLanguage,
+  setSelectedLanguage
 }) => {
   const tabs = [
     { id: 'dashboard',    label: 'Overview',        icon: Activity },
@@ -50,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
-      {/* Ministry Banner — clean, no SIH code */}
+      {/* Ministry Banner */}
       <div className="bg-gradient-to-r from-blue-950 via-blue-900 to-indigo-950 text-white text-[11px] px-4 py-1.5 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <span className="inline-block w-2 h-2 rounded-full bg-orange-400 animate-pulse" />
@@ -58,9 +63,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             Bureau of Indian Standards (BIS) — Compliance Intelligence Platform
           </span>
         </div>
-        <span className="hidden md:inline bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full text-[10px] font-medium border border-emerald-500/30">
-          ✓ 100% Authorized Evidence
-        </span>
+        <div className="flex items-center space-x-3">
+          <span className="hidden md:inline bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full text-[10px] font-medium border border-emerald-500/30">
+            ✓ 100% Authorized Evidence
+          </span>
+        </div>
       </div>
 
       {/* Main Navbar */}
@@ -116,8 +123,25 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          {/* Right: Role badge + Logout */}
+          {/* Right: Language Selector + Role badge + Logout */}
           <div className="flex items-center space-x-2 shrink-0">
+            {/* Multi-Language Switcher */}
+            <div className="flex items-center space-x-1 bg-slate-100 px-2 py-1 rounded-lg border border-slate-200">
+              <Globe className="w-3.5 h-3.5 text-blue-700 shrink-0" />
+              <select
+                value={selectedLanguage}
+                onChange={(e) => setSelectedLanguage(e.target.value)}
+                className="text-xs font-semibold bg-transparent text-slate-700 cursor-pointer focus:outline-none"
+              >
+                <option value="en">English</option>
+                <option value="hi">🇮🇳 हिन्दी (Hindi)</option>
+                <option value="ta">🇮🇳 தமிழ் (Tamil)</option>
+                <option value="te">🇮🇳 తెలుగు (Telugu)</option>
+                <option value="mr">🇮🇳 मराठी (Marathi)</option>
+                <option value="bn">🇮🇳 বাংলা (Bengali)</option>
+              </select>
+            </div>
+
             <span className={`hidden md:inline text-[11px] font-semibold px-2.5 py-1 rounded-full border ${roleColor[userRole] || roleColor.manufacturer}`}>
               {roleLabel[userRole] || userRole}
             </span>
@@ -144,7 +168,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             className={`whitespace-nowrap px-2.5 py-1.5 text-xs rounded-md font-medium flex items-center space-x-1 ${
               activeTab === tab.id
                 ? 'bg-blue-600 text-white'
-                : 'text-slateate-600 bg-white border border-slate-200 text-slate-600'
+                : 'text-slate-600 bg-white border border-slate-200 text-slate-600'
             }`}
           >
             <span>{tab.label}</span>
